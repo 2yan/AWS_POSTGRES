@@ -1,11 +1,24 @@
-# AWS_POSTGRES
+# AWS PostgreSQL Lambda Layer
 
-LAMBDA LAYERS FOR AWS POSTGRES. 
-Upload as Layer, attach to your function and you're good to go.
+## Overview
+This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
 
-In your lambda function you should just be able to do 
-import psycopg2
+## Features
+- **Ease of Use**: Attach the layer to your Lambda functio..
+- **Seamless Integration**: Allows you to use `psycopg2` to interact with your PostgreSQL database.
 
-and continue as normal. 
+## Getting Started
+1. **Upload the Lambda Layer**:
+   - Navigate to the AWS Lambda Management Console.
+   - Choose "Layers" from the left-hand menu.
+   - Select "Create layer", and upload the provided layer package, the names of the packages corrospond to the python version they support.
 
-Enjoy
+2. **Attach the Layer to Your Lambda Function**:
+   - Open your Lambda function in the AWS Console.
+   - In the "Layers" section, choose "Add a layer".
+   - Select the uploaded PostgreSQL under custom layers and add it to your function.
+
+3. **Use in Your Application**:
+   ```python
+   import psycopg2
+   # Now, you can establish a connection to your PostgreSQL database and execute SQL statements as usual.
