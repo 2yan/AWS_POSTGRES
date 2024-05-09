@@ -6,7 +6,7 @@ This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
 
 ## Features
 - **Ease of Use**: Attach the layer to your Lambda functio..
-- **Seamless Integration**: Allows you to use `psycopg2` to interact with your PostgreSQL database.
+- **Seamless Integration**: Allows you to use `psycopg2` or `psycopg3` to interact with your PostgreSQL database.
 
 ## Getting Started
 1. **Upload the Lambda Layer**:
@@ -22,4 +22,6 @@ This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
 3. **Use in Your Application**:
    ```python
    import psycopg2
+   OR
+   import psycopg
    # Now, you can establish a connection to your PostgreSQL database and execute SQL statements as usual.
