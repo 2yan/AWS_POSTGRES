@@ -1,5 +1,4 @@
 # AWS PostgreSQL Lambda Layer 
-Disclaimer:  I had AI help with this readme but it is overall appropriate, concise and has better grammar than I would normally have. 
 
 ## Overview
 This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
