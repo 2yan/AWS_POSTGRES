@@ -14,7 +14,7 @@ This repository contains prebuilt Lambda Layers for AWS, including PostgreSQL co
 - **Jinja2 v3.1.2** - Template engine for Python (with MarkupSafe v2.1.3)
 - **OpenAI v0.28.0** - Official OpenAI Python library (Python 3.9)
 - **Tableau Server Client v0.28** - Python client for Tableau Server API (Python 3.9)
-- **Ulysses** - Custom utility library (numpy v1.26.1, pandas v2.1.1, pyodbc v4.0.26)
+- **Ulysses** - Microsoft SQL Server connectivity library (numpy v1.26.1, pandas v2.1.1, pyodbc v4.0.26)
 
 ## Layer Details
 
@@ -34,7 +34,7 @@ This repository contains prebuilt Lambda Layers for AWS, including PostgreSQL co
 | **jinja2.zip** | 3.9 | jinja2 v3.1.2 | Template engine for Python |
 | **openai.zip** | 3.9 | openai v0.28.0 | Official OpenAI Python library |
 | **tableau_server_client.zip** | 3.9 | tableauserverclient v0.28 | Python client for Tableau Server API |
-| **ulysses.zip** | 3.9 | Custom | Utility library (numpy, pandas, pyodbc) |
+| **ulysses.zip** | 3.9 | Custom | Microsoft SQL Server connectivity (numpy, pandas, pyodbc) |
 
 ## Features
 - **Ease of Use**: Attach the layer to your Lambda function
