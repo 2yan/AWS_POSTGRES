@@ -1,11 +1,25 @@
-# AWS PostgreSQL Lambda Layer 
+# AWS Lambda Layers Library
 
 ## Overview
-This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
+This repository contains prebuilt Lambda Layers for AWS, including PostgreSQL connectors and popular Python libraries.
+
+## Available Layers
+
+### PostgreSQL Connectors
+- **psycopg2** layers for Python 3.8-3.12
+- **psycopg3** layers for Python 3.8-3.12
+
+### Additional Libraries
+- **Facebook Prophet** - Time series forecasting library
+- **Jinja2** - Template engine for Python
+- **OpenAI** - Official OpenAI Python library
+- **Tableau Server Client** - Python client for Tableau Server API
+- **Ulysses** - Custom utility library
 
 ## Features
-- **Ease of Use**: Attach the layer to your Lambda functio..
-- **Seamless Integration**: Allows you to use `psycopg2` or `psycopg3` to interact with your PostgreSQL database.
+- **Ease of Use**: Attach the layer to your Lambda function
+- **Seamless Integration**: Ready-to-use Python libraries in AWS Lambda
+- **Multiple Python Versions**: Support for Python 3.8-3.12
 
 ## Getting Started
 1. **Upload the Lambda Layer**:
@@ -20,7 +34,15 @@ This repository contains prebuilt PostgreSQL Lambda Layers for AWS.
 
 3. **Use in Your Application**:
    ```python
+   # PostgreSQL connections
    import psycopg2
-   OR
+   # OR
    import psycopg
-   # Now, you can establish a connection to your PostgreSQL database and execute SQL statements as usual.
+   
+   # Other libraries
+   import openai
+   from prophet import Prophet
+   import jinja2
+   import tableauserverclient
+   
+   # Now you can use these libraries in your Lambda function
